@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 15px;
 }
 
 label img {
@@ -21,131 +22,47 @@ label img {
 }
 
 .item .text {
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 10px;
     font-size: 18px;
 }
 
 .item img {
     width: 240px;
     height: 240px;
-    margin: 0 0 15px 0;
 }
 
+.item {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+/* 
 .items {
     margin: 25px;
     display: grid;
     gap: 20px;
     grid-template-columns: auto auto auto auto;
-}
+} */
 
-@media only screen and (min-width: 400px) {
 
-    .logo img {
-        width: 400px;
-        height: 125px;
-        background-repeat: no-repeat;
-        margin: 50px auto;
+@media only screen and (min-width: 1020px) {
+
+    .ram {
+        padding: 24px;
     }
-
-    #searchInput {
-        background: url(/imgs/searchl.png) no-repeat scroll 7px 7px;
-        display: flex;
-        background-size: 30px;
-        font-size: 16px;
-        width: 400px;
-        height: 30px;
-        border: 1px solid #000;
-        border-radius: 4px;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-        padding: 22px 45px;
-    }
-
-    .items {
-        margin: 25px;
-        display: grid;
-        gap: 20px;
-        grid-template-columns: auto;
-    }
-
-}
-
-@media only screen and (min-width: 700px) {
-
-    .logo img {
-        width: 400px;
-        height: 125px;
-        background-repeat: no-repeat;
-        margin: 50px auto;
-    }
-
-    #searchInput {
-        background: url(/imgs/searchl.png) no-repeat scroll 7px 7px;
-        display: flex;
-        background-size: 30px;
-        font-size: 16px;
-        width: 400px;
-        height: 30px;
-        border: 1px solid #000;
-        border-radius: 4px;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-        padding: 22px 45px;
-    }
-
-    .items {
-        margin: 25px;
-        display: grid;
-        gap: 20px;
-        grid-template-columns: auto auto;
-    }
-
-}
-
-@media only screen and (min-width: 800px) {
-
-    .logo img {
-        width: 500px;
-        height: 150px;
-        background-repeat: no-repeat;
-        margin: 50px auto;
-    }
-    
-    #searchInput {
-        background: url(/imgs/searchl.png) no-repeat scroll 7px 7px;
-        display: flex;
-        background-size: 30px;
-        font-size: 16px;
-        width: 600px;
-        height: 30px;
-        border: 1px solid #000;
-        border-radius: 4px;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-        padding: 22px 45px;
-    }
-
-    .items {
-        margin: 25px;
-        display: grid;
-        gap: 20px;
-        grid-template-columns: auto auto auto;
-    }
-    
-}
-@media only screen and (min-width: 1000px) {
 
     .logo img {
         width: 600px;
         height: 200px;
         background-repeat: no-repeat;
-        margin: 50px auto;
+        margin: 0 0 15px 0;
     }
-    
+
     #searchInput {
         background: url(/imgs/searchl.png) no-repeat scroll 7px 7px;
         display: flex;
         background-size: 30px;
         font-size: 16px;
-        width: 800px;
         height: 30px;
+        width: 1020px;
         border: 1px solid #000;
         border-radius: 4px;
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
@@ -157,6 +74,41 @@ label img {
         display: grid;
         gap: 20px;
         grid-template-columns: auto auto auto auto;
-    }  
-        
+    }
+
+}
+
+@media only screen and (max-width: 1020px) {
+
+    .ram {
+        padding: 24px;
+    }
+
+    .logo img {
+        width: 400px;
+        height: 125px;
+        background-repeat: no-repeat;
+        margin: 0 0 15px 0;
+    }
+
+    #searchInput {
+        background: url(/imgs/searchl.png) no-repeat scroll 7px 7px;
+        display: flex;
+        background-size: 30px;
+        font-size: 16px;
+        height: 30px;
+        width: 312px;
+        border: 1px solid #000;
+        border-radius: 4px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        padding: 22px 45px;
+    }
+
+    .items {
+        margin: 25px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto ;
+    }
+
 }
