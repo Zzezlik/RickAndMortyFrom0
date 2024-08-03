@@ -46,7 +46,7 @@ label img {
 @media only screen and (min-width: 1020px) {
 
     .ram {
-        padding: 24px;
+        margin: 24px;
     }
 
     .logo img {
@@ -85,8 +85,8 @@ label img {
     }
 
     .logo img {
-        width: 400px;
-        height: 125px;
+        width: 355px;
+        height: 120px;
         background-repeat: no-repeat;
         margin: 0 0 15px 0;
     }
