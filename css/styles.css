@@ -48,56 +48,12 @@
 
 }
 
-.follower {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    border-radius: 100%;
-    pointer-events: none;
-    border: red 2px solid;
-    background: none;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-    transition: all 0.08s ease;
-}
-
-body.dark {
-    color: white;
-    background: dimgray;
-}
-
-.menuToggle {
-    float: right;
-    z-index: 998;
+.hidden {
+    display: none;
 }
 
 .item {
-    right: -300px;
-    position: fixed;
-    background: white;
-    width: 300px;
-    height: 100%;
-    z-index: 999;
-    transition: right 2s ease-in-out;
-}
-
-.menu {
-    position: fixed;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
-}
-
-.hidden {
-    display: none;
-
-}
-
-/* Меню открыто */
-.side-menu.open {
-    right: 0; /* Меню выезжает вправо */
-}
-
-/* Фон активен, когда меню открыто */
-.overlay.show {
-    display: block;
+    border: 0;
+    background: aqua;
+    padding: 20px;
 }
